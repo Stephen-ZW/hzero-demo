@@ -4,14 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.platform</groupId>
-        <artifactId>hpfm-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <groupId>org.hzero</groupId>
+        <artifactId>hzero-parent</artifactId>
+        <version>0.10.0.RELEASE</version>
     </parent>
     <groupId>org.hpfm</groupId>
     <artifactId>hpfm-register</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <name>hpfm-register</name>
 
     <dependencies>
         <!-- 数据库驱动 -->
@@ -25,7 +24,7 @@
             <groupId>org.hzero</groupId>
             <artifactId>hzero-register</artifactId>
         </dependency>
-       
+
         
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -47,7 +46,7 @@
                 <enabled>true</enabled>
             </releases>
         </repository>
-        <!-- 按项目实际情况修改
+        <!-- 按项目实际情况修改-->
             <repository>
             <id>HzeroRelease</id>
             <name>Hzero-Release Repository</name>
@@ -63,7 +62,7 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
-        </repository> -->
+        </repository>
     </repositories>
 
 </project>
